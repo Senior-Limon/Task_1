@@ -1,0 +1,218 @@
+2026-04-15 12:48:32 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-15 12:48:32 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-15 12:48:32 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 9 чисел из D:\task1_inno\task_1\Task_1\src\main\resources\numsForArray.txt
+2026-04-15 12:48:32 [main] INFO  org.example.Main - Исходный вектор: [15, 3, -7, 42, 0, 100, -23, 8, 12]
+2026-04-15 12:48:32 [main] INFO  org.example.Main - Максимальный элемент: 100
+2026-04-15 12:48:32 [main] INFO  org.example.Main - Сумма элементов: 150
+2026-04-15 12:48:32 [main] INFO  org.example.Main - Отсортированный вектор: [-23, -7, 0, 3, 8, 12, 15, 42, 100]
+2026-04-15 12:49:01 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-15 12:49:01 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-15 12:49:01 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 9 чисел из D:\task1_inno\task_1\Task_1\src\main\resources\numsForArray.txt
+2026-04-15 12:49:01 [main] INFO  org.example.Main - Исходный вектор: [15, 3, -7, 42, 0, 100, -23, 8, 12]
+2026-04-15 12:49:01 [main] INFO  org.example.Main - Максимальный элемент: 100
+2026-04-15 12:49:01 [main] INFO  org.example.Main - Сумма элементов: 150
+2026-04-15 12:49:01 [main] INFO  org.example.Main - Отсортированный вектор: [-23, -7, 0, 3, 8, 12, 15, 42, 100]
+2026-04-15 12:59:14 [main] ERROR org.example.Main - Ошибка при чтении файла 'D:\task1_inno\task_1\Task_1\src\main\resources\numsForArray.txt': D:\task1_inno\task_1\Task_1\src\main\resources\numsForArray.txt (Системе не удается найти указанный путь)
+2026-04-15 12:59:50 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-15 12:59:50 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-15 12:59:50 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 9 чисел из D:\task1_inno\task1_Inno\src\main\resources\numsForArray.txt
+2026-04-15 12:59:50 [main] INFO  org.example.Main - Исходный вектор: [15, 3, -7, 42, 0, 100, -23, 8, 12]
+2026-04-15 12:59:50 [main] INFO  org.example.Main - Максимальный элемент: 100
+2026-04-15 12:59:50 [main] INFO  org.example.Main - Сумма элементов: 150
+2026-04-15 12:59:50 [main] INFO  org.example.Main - Отсортированный вектор: [-23, -7, 0, 3, 8, 12, 15, 42, 100]
+2026-04-15 17:13:06 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-15 17:13:06 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-15 17:13:06 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 9 чисел из D:\task1_inno\task1_Inno\src\main\resources\numsForArray.txt
+2026-04-15 17:13:06 [main] INFO  org.example.Main - Vector: [15, 3, -7, 42, 0, 100, -23, 8, 12]
+2026-04-15 17:13:06 [main] INFO  org.example.Main - Max element: 100
+2026-04-15 17:13:06 [main] INFO  org.example.Main - Sum of elements: 150
+2026-04-15 17:13:06 [main] INFO  org.example.Main - Sorted vector: [-23, -7, 0, 3, 8, 12, 15, 42, 100]
+2026-04-17 13:19:35 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-17 13:19:35 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-17 13:19:35 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 9 чисел из D:\task1_inno\task1_Inno\src\main\resources\numsForArray.txt
+2026-04-17 13:19:35 [main] INFO  org.example.Main - Vector: [15, 3, -7, 42, 0, 100, -23, 8, 12]
+2026-04-17 13:19:35 [main] INFO  org.example.Main - Max element: 100
+2026-04-17 13:19:35 [main] INFO  org.example.Main - Sum of elements: 150
+2026-04-17 13:19:35 [main] INFO  org.example.Main - Sorted vector: [-23, -7, 0, 3, 8, 12, 15, 42, 100]
+2026-04-22 13:02:18 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-22 13:02:18 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-22 13:02:18 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 9 чисел из D:\task1_inno\task1_Inno\src\main\resources\numsForArray.txt
+2026-04-22 13:02:18 [main] INFO  org.example.Main - Vector: [15, 3, -7, 42, 0, 100, -23, 8, 12]
+2026-04-22 13:02:18 [main] INFO  org.example.Main - Max element: 100
+2026-04-22 13:02:18 [main] INFO  org.example.Main - Sum of elements: 150
+2026-04-22 13:02:18 [main] INFO  org.example.Main - Sorted vector: [-23, -7, 0, 3, 8, 12, 15, 42, 100]
+2026-04-27 15:33:04 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-27 15:33:04 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-27 15:33:04 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 9 чисел из D:\task1_inno\task1_Inno\src\main\resources\numsForArray.txt
+2026-04-27 15:33:04 [main] INFO  org.example.Main - Vector: [15, 3, -7, 42, 0, 100, -23, 8, 12]
+2026-04-27 15:33:04 [main] INFO  org.example.Main - Max element: 100
+2026-04-27 15:33:04 [main] INFO  org.example.Main - Sum of elements: 150
+2026-04-27 15:33:04 [main] INFO  org.example.Main - Sorted vector: [-23, -7, 0, 3, 8, 12, 15, 42, 100]
+2026-04-27 16:39:41 [main] INFO  org.example.Main - Application started.
+2026-04-27 16:39:41 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - DataVectorRepository instance created.
+2026-04-27 16:39:41 [main] INFO  org.example.warehouse.Warehouse - Warehouse singleton instance created.
+2026-04-27 16:39:41 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-27 16:39:41 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-27 16:39:41 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 9 чисел из D:\task1_inno\task1_Inno\src\main\resources\numsForArray.txt
+2026-04-27 16:39:41 [main] INFO  org.example.Main - Loaded 9 numbers from file
+2026-04-27 16:39:41 [main] INFO  org.example.Main - Successfully created vector: [15, 3, -7]
+2026-04-27 16:39:41 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 1
+2026-04-27 16:39:41 [main] INFO  org.example.Main - Successfully created vector: [42, 0, 100]
+2026-04-27 16:39:41 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 2
+2026-04-27 16:39:41 [main] INFO  org.example.Main - Successfully created vector: [-23, 8, 12]
+2026-04-27 16:39:41 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 3
+2026-04-27 16:39:41 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Query completed, found 3 matching vectors
+2026-04-27 16:39:41 [main] INFO  org.example.Main - Repository contains 3 vectors
+2026-04-27 16:39:41 [main] INFO  org.example.Main - Vector ID: 1, Data: [15, 3, -7]
+2026-04-27 16:39:41 [main] INFO  org.example.Main - Vector ID: 2, Data: [42, 0, 100]
+2026-04-27 16:39:41 [main] INFO  org.example.Main - Vector ID: 3, Data: [-23, 8, 12]
+2026-04-27 16:39:41 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Query completed, found 1 matching vectors
+2026-04-27 16:39:41 [main] INFO  org.example.Main - Found vector by ID 1: [15, 3, -7]
+2026-04-27 16:39:41 [main] INFO  org.example.Main - Stats for ID 1: null
+2026-04-27 16:40:24 [main] INFO  org.example.Main - Application started.
+2026-04-27 16:40:24 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - DataVectorRepository instance created.
+2026-04-27 16:40:24 [main] INFO  org.example.warehouse.Warehouse - Warehouse singleton instance created.
+2026-04-27 16:40:24 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-27 16:40:24 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-27 16:40:24 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 9 чисел из D:\task1_inno\task1_Inno\src\main\resources\numsForArray.txt
+2026-04-27 16:40:24 [main] INFO  org.example.Main - Loaded 9 numbers from file
+2026-04-27 16:40:24 [main] INFO  org.example.Main - Successfully created vector: [15, 3, -7]
+2026-04-27 16:40:24 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 1
+2026-04-27 16:40:24 [main] INFO  org.example.Main - Successfully created vector: [42, 0, 100]
+2026-04-27 16:40:24 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 2
+2026-04-27 16:40:24 [main] INFO  org.example.Main - Successfully created vector: [-23, 8, 12]
+2026-04-27 16:40:24 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 3
+2026-04-27 16:40:24 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Query completed, found 3 matching vectors
+2026-04-27 16:40:24 [main] INFO  org.example.Main - Repository contains 3 vectors
+2026-04-27 16:40:24 [main] INFO  org.example.Main - Vector ID: 1, Data: [15, 3, -7]
+2026-04-27 16:40:24 [main] INFO  org.example.Main - Vector ID: 2, Data: [42, 0, 100]
+2026-04-27 16:40:24 [main] INFO  org.example.Main - Vector ID: 3, Data: [-23, 8, 12]
+2026-04-27 16:40:24 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Query completed, found 1 matching vectors
+2026-04-27 16:40:24 [main] INFO  org.example.Main - Found vector by ID 1: [15, 3, -7]
+2026-04-27 16:40:24 [main] INFO  org.example.Main - Stats for ID 1: null
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Application started.
+2026-04-27 16:42:26 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - DataVectorRepository instance created.
+2026-04-27 16:42:26 [main] INFO  org.example.warehouse.Warehouse - Warehouse singleton instance created.
+2026-04-27 16:42:26 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-27 16:42:26 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-27 16:42:26 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 9 чисел из D:\task1_inno\task1_Inno\src\main\resources\numsForArray.txt
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Loaded 9 numbers from file
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Created vector: [15]
+2026-04-27 16:42:26 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 1
+2026-04-27 16:42:26 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 1
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Created vector: [3]
+2026-04-27 16:42:26 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 2
+2026-04-27 16:42:26 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 2
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Created vector: [-7]
+2026-04-27 16:42:26 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 3
+2026-04-27 16:42:26 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 3
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Created vector: [42]
+2026-04-27 16:42:26 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 4
+2026-04-27 16:42:26 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 4
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Created vector: [0]
+2026-04-27 16:42:26 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 5
+2026-04-27 16:42:26 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 5
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Created vector: [100]
+2026-04-27 16:42:26 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 6
+2026-04-27 16:42:26 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 6
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Created vector: [-23]
+2026-04-27 16:42:26 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 7
+2026-04-27 16:42:26 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 7
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Created vector: [8]
+2026-04-27 16:42:26 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 8
+2026-04-27 16:42:26 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 8
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Created vector: [12]
+2026-04-27 16:42:26 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 9
+2026-04-27 16:42:26 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 9
+2026-04-27 16:42:26 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Query completed, found 4 matching vectors
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Vectors with sum > 10 found: 4
+2026-04-27 16:42:26 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Sort completed, sorted 9 vectors
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Sorted vectors:
+2026-04-27 16:42:26 [main] INFO  org.example.Main - ID: 1, Data: [15]
+2026-04-27 16:42:26 [main] INFO  org.example.Main - ID: 2, Data: [3]
+2026-04-27 16:42:26 [main] INFO  org.example.Main - ID: 3, Data: [-7]
+2026-04-27 16:42:26 [main] INFO  org.example.Main - ID: 4, Data: [42]
+2026-04-27 16:42:26 [main] INFO  org.example.Main - ID: 5, Data: [0]
+2026-04-27 16:42:26 [main] INFO  org.example.Main - ID: 6, Data: [100]
+2026-04-27 16:42:26 [main] INFO  org.example.Main - ID: 7, Data: [-23]
+2026-04-27 16:42:26 [main] INFO  org.example.Main - ID: 8, Data: [8]
+2026-04-27 16:42:26 [main] INFO  org.example.Main - ID: 9, Data: [12]
+2026-04-27 16:42:26 [main] INFO  org.example.Main - Application finished.
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Application started.
+2026-04-27 16:45:05 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - DataVectorRepository instance created.
+2026-04-27 16:45:05 [main] INFO  org.example.warehouse.Warehouse - Warehouse singleton instance created.
+2026-04-27 16:45:05 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 2: пропущено неверное значение '3 4'
+2026-04-27 16:45:05 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-27 16:45:05 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-27 16:45:05 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 8 чисел из D:\task1_inno\task1_Inno\src\main\resources\numsForArray.txt
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Loaded 8 numbers from file
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Created vector: [15]
+2026-04-27 16:45:05 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 1
+2026-04-27 16:45:05 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 1
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Created vector: [-7]
+2026-04-27 16:45:05 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 2
+2026-04-27 16:45:05 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 2
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Created vector: [42]
+2026-04-27 16:45:05 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 3
+2026-04-27 16:45:05 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 3
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Created vector: [0]
+2026-04-27 16:45:05 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 4
+2026-04-27 16:45:05 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 4
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Created vector: [100]
+2026-04-27 16:45:05 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 5
+2026-04-27 16:45:05 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 5
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Created vector: [-23]
+2026-04-27 16:45:05 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 6
+2026-04-27 16:45:05 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 6
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Created vector: [8]
+2026-04-27 16:45:05 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 7
+2026-04-27 16:45:05 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 7
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Created vector: [12]
+2026-04-27 16:45:05 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 8
+2026-04-27 16:45:05 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 8
+2026-04-27 16:45:05 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Query completed, found 4 matching vectors
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Vectors with sum > 10 found: 4
+2026-04-27 16:45:05 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Sort completed, sorted 8 vectors
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Sorted vectors:
+2026-04-27 16:45:05 [main] INFO  org.example.Main - ID: 1, Data: [15]
+2026-04-27 16:45:05 [main] INFO  org.example.Main - ID: 2, Data: [-7]
+2026-04-27 16:45:05 [main] INFO  org.example.Main - ID: 3, Data: [42]
+2026-04-27 16:45:05 [main] INFO  org.example.Main - ID: 4, Data: [0]
+2026-04-27 16:45:05 [main] INFO  org.example.Main - ID: 5, Data: [100]
+2026-04-27 16:45:05 [main] INFO  org.example.Main - ID: 6, Data: [-23]
+2026-04-27 16:45:05 [main] INFO  org.example.Main - ID: 7, Data: [8]
+2026-04-27 16:45:05 [main] INFO  org.example.Main - ID: 8, Data: [12]
+2026-04-27 16:45:05 [main] INFO  org.example.Main - Application finished.
+2026-04-27 16:46:51 [main] INFO  org.example.Main - Application started.
+2026-04-27 16:46:51 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - DataVectorRepository instance created.
+2026-04-27 16:46:51 [main] INFO  org.example.warehouse.Warehouse - Warehouse singleton instance created.
+2026-04-27 16:46:51 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 2: пропущено неверное значение '3 4'
+2026-04-27 16:46:51 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-27 16:46:51 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-27 16:46:51 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 8 чисел из D:\task1_inno\task1_Inno\src\main\resources\numsForArray.txt
+2026-04-27 16:46:51 [main] INFO  org.example.Main - Loaded 8 numbers from file
+2026-04-27 16:46:51 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 1
+2026-04-27 16:46:51 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 2
+2026-04-27 16:46:51 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 3
+2026-04-27 16:48:06 [main] INFO  org.example.Main - Application started.
+2026-04-27 16:48:06 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - DataVectorRepository instance created.
+2026-04-27 16:48:06 [main] INFO  org.example.warehouse.Warehouse - Warehouse singleton instance created.
+2026-04-27 16:48:06 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 2: пропущено неверное значение '3 4'
+2026-04-27 16:48:06 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 5: пропущено неверное значение 'invalid'
+2026-04-27 16:48:06 [main] WARN  org.example.fileParser.impl.DataVectorParserImpl - Строка 10: пропущено неверное значение '55.5'
+2026-04-27 16:48:06 [main] INFO  org.example.fileParser.impl.DataVectorParserImpl - Загружено 8 чисел из D:\task1_inno\task1_Inno\src\main\resources\numsForArray.txt
+2026-04-27 16:48:06 [main] INFO  org.example.Main - Loaded 8 numbers from file
+2026-04-27 16:48:06 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 1
+2026-04-27 16:48:06 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 1
+2026-04-27 16:48:06 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 2
+2026-04-27 16:48:06 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 2
+2026-04-27 16:48:06 [main] INFO  org.example.observer.impl.DataVectorObserverImpl - Observer triggered for vector ID: 3
+2026-04-27 16:48:06 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Added vector to repository with ID: 3
+2026-04-27 16:48:06 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Query completed, found 3 matching vectors
+2026-04-27 16:48:06 [main] INFO  org.example.Main - Vectors with sum > 10 found: 3
+2026-04-27 16:48:06 [main] INFO  org.example.repository.impl.DataVectorRepositoryImpl - Sort completed, sorted 3 vectors
+2026-04-27 16:48:06 [main] INFO  org.example.Main - Sorted vectors:
+2026-04-27 16:48:06 [main] INFO  org.example.Main - ID: 3, Data: [8, 12]
+2026-04-27 16:48:06 [main] INFO  org.example.Main - ID: 1, Data: [15, -7, 42]
+2026-04-27 16:48:06 [main] INFO  org.example.Main - ID: 2, Data: [0, 100, -23]
+2026-04-27 16:48:06 [main] INFO  org.example.Main - Application finished.
