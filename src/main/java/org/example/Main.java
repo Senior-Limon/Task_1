@@ -3,6 +3,7 @@ package org.example;
 import org.example.comparator.DataVectorSizeComparator;
 import org.example.customArray.IntegerDataVector;
 import org.example.customException.IntegerDataVectorException;
+import org.example.factory.impl.DataVectorFactoryImpl;
 import org.example.fileParser.impl.DataVectorParserImpl;
 import org.example.observer.DataVectorObserver;
 import org.example.observer.impl.DataVectorObserverImpl;
@@ -18,6 +19,7 @@ import java.util.List;
 
 public class Main {
     private static final Logger logger = LogManager.getLogger(Main.class);
+    private static final DataVectorFactoryImpl factory = new DataVectorFactoryImpl();
 
     public static void main(String[] args) throws Exception {
         logger.info("Application started.");
@@ -41,7 +43,7 @@ public class Main {
                 for (int j = 0; j < vectorData.length; j++) {
                     vectorData[j] = numbers.get(i + j);
                 }
-                IntegerDataVector vector = IntegerDataVector.createWithData(vectorData);
+                IntegerDataVector vector = factory.createWithData(vectorData);
                 observer.vectorChanged(vector);
                 vector.attach(observer);
                 repository.add(vector);

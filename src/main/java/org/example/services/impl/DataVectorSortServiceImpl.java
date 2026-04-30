@@ -2,6 +2,7 @@ package org.example.services.impl;
 
 import org.example.customArray.IntegerDataVector;
 import org.example.customException.IntegerDataVectorException;
+import org.example.factory.impl.DataVectorFactoryImpl;
 import org.example.services.IntegerDataVectorSortService;
 
 import java.util.ArrayList;
@@ -9,13 +10,16 @@ import java.util.Random;
 
 public class DataVectorSortServiceImpl implements IntegerDataVectorSortService {
 
+    private final DataVectorFactoryImpl factory = new DataVectorFactoryImpl();
+
+
     @Override
     public IntegerDataVector qSort(IntegerDataVector vector) throws IntegerDataVectorException {
 
         Random rnd = new Random();
 
         if (vector.getSize() == 0) {
-            return IntegerDataVector.createBySize(0);
+            return factory.createBySize(0);
         }
         // IntegerDataVector => array; array => ArrayList
         int[] vectorArray = vector.getFullDataVector();
@@ -26,23 +30,23 @@ public class DataVectorSortServiceImpl implements IntegerDataVectorSortService {
 
         ArrayList<Integer> sortedArray = qSortHelper(list, rnd);
 
-        // Sorted ArrayList => array; array => IntegerDataVector; return sorted IntegerDataVector
+        // Sorted ArrayList => array; array => IntegerDataVector; return new sorted IntegerDataVector
         int[] result = new int[sortedArray.size()];
 
         for (int i = 0; i < result.length; i++) {
             result[i] = sortedArray.get(i);
         }
-        return IntegerDataVector.createWithData(result);
+        return factory.createWithData(result);
     }
 
     @Override
     public IntegerDataVector bubbleSort(IntegerDataVector vector) throws IntegerDataVectorException {
 
         if (vector.getSize() == 0) {
-            return IntegerDataVector.createBySize(0);
+            return factory.createBySize(0);
         }
 
-        IntegerDataVector sortedVector = IntegerDataVector.createWithData(vector.getFullDataVector());
+        IntegerDataVector sortedVector = factory.createWithData(vector.getFullDataVector());
         int length = sortedVector.getSize();
 
         for (int i = 0; i < length - 1; i++) {

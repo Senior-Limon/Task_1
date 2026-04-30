@@ -2,16 +2,19 @@ package dataVector;
 
 import org.example.customArray.IntegerDataVector;
 import org.example.customException.IntegerDataVectorException;
+import org.example.factory.impl.DataVectorFactoryImpl;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class IntegerDataVectorTest {
 
+    private final DataVectorFactoryImpl factory = new DataVectorFactoryImpl();
+
     @Test
     @DisplayName("createWithData should create vector with data")
     void createWithDataTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createWithData(1, 2, 3);
+        IntegerDataVector vector = factory.createWithData(1, 2, 3);
 
         int[] elements = vector.getFullDataVector();
 
@@ -23,7 +26,7 @@ public class IntegerDataVectorTest {
     @DisplayName("Constructor should copy elements")
     void constructorEncapsulationTest() throws IntegerDataVectorException {
         int[] input = {1, 2, 3};
-        IntegerDataVector vector = IntegerDataVector.createWithData(input);
+        IntegerDataVector vector = factory.createWithData(input);
 
         input[0] = 99;
 
@@ -37,7 +40,7 @@ public class IntegerDataVectorTest {
     @Test
     @DisplayName("getFullDataVector should return a clone, not the original reference")
     void getFullDataVectorCloneTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createWithData(1, 2, 3);
+        IntegerDataVector vector = factory.createWithData(1, 2, 3);
         int[] extracted = vector.getFullDataVector();
 
         extracted[0] = 99;
@@ -51,7 +54,7 @@ public class IntegerDataVectorTest {
     @Test
     @DisplayName("setElement should update element at index")
     void setElementTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createWithData(1, 2, 3);
+        IntegerDataVector vector = factory.createWithData(1, 2, 3);
         vector.setElement(1, 99);
 
         int actual = vector.getElementByIndex(1);
@@ -63,7 +66,7 @@ public class IntegerDataVectorTest {
     @Test
     @DisplayName("setElement should throw exception for invalid index")
     void setElementInvalidTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createWithData(1, 2, 3);
+        IntegerDataVector vector = factory.createWithData(1, 2, 3);
 
         assertThrows(IntegerDataVectorException.class,
                 () -> vector.setElement(10, 99),
@@ -73,9 +76,9 @@ public class IntegerDataVectorTest {
     @Test
     @DisplayName("equals and hashCode should work correctly for identical content")
     void equalsHashCodeTest() throws IntegerDataVectorException {
-        IntegerDataVector vector1 = IntegerDataVector.createWithData(1, 2, 3);
-        IntegerDataVector vector2 = IntegerDataVector.createWithData(1, 2, 3);
-        IntegerDataVector vector3 = IntegerDataVector.createWithData(4, 5, 6);
+        IntegerDataVector vector1 = factory.createWithData(1, 2, 3);
+        IntegerDataVector vector2 = factory.createWithData(1, 2, 3);
+        IntegerDataVector vector3 = factory.createWithData(4, 5, 6);
 
         assertAll(
                 () -> assertEquals(vector1, vector2, "Vectors with same content should be equal"),
@@ -88,7 +91,7 @@ public class IntegerDataVectorTest {
     @Test
     @DisplayName("toString should contain array elements representation")
     void toStringTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createWithData(1, 2, 3);
+        IntegerDataVector vector = factory.createWithData(1, 2, 3);
         String result = vector.toString();
 
         assertTrue(result.contains("1, 2, 3"), "toString should include array content");

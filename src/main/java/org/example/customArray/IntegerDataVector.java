@@ -16,36 +16,22 @@ public class IntegerDataVector implements DataVectorObservable {
     private static final Logger log = LogManager.getLogger(IntegerDataVector.class);
     private static final AtomicInteger idGenerator = new AtomicInteger(0);
 
-    private int[] array;
     private final int id;
+    private int[] array;
     private final List<DataVectorObserver> observers;
 
-    private IntegerDataVector(int size) {
+    public IntegerDataVector(int size) {
         this.array = new int[size];
         this.id = idGenerator.incrementAndGet();
         this.observers = new ArrayList<>();
         log.debug("IntegerDataVector created with id: {}, size: {}", id, size);
     }
 
-    private IntegerDataVector(int... inputData) {
+    public IntegerDataVector(int... inputData) {
         this.array = inputData.clone();
         this.id = idGenerator.incrementAndGet();
         this.observers = new ArrayList<>();
         log.debug("IntegerDataVector created with id: {}, data: {}", id, Arrays.toString(array));
-    }
-
-    public static IntegerDataVector createBySize(int size) throws IntegerDataVectorException {
-        if (size < 0) {
-            throw new IntegerDataVectorException("Trying create vector with negative size");
-        }
-        return new IntegerDataVector(size);
-    }
-
-    public static IntegerDataVector createWithData(int... inputData) throws IntegerDataVectorException {
-        if (inputData == null || inputData.length == 0) {
-            throw new IntegerDataVectorException("Trying create vector without data");
-        }
-        return new IntegerDataVector(inputData);
     }
 
     public int getSize() {

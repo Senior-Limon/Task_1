@@ -2,6 +2,8 @@ package dataVectorService;
 
 import org.example.customArray.IntegerDataVector;
 import org.example.customException.IntegerDataVectorException;
+import org.example.factory.DataVectorFactory;
+import org.example.factory.impl.DataVectorFactoryImpl;
 import org.example.services.impl.DataVectorSortServiceImpl;
 import org.example.services.impl.IntegerDataVectorServiceImpl;
 import org.junit.jupiter.api.DisplayName;
@@ -10,13 +12,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class DataVectorServiceTest {
 
+    private final DataVectorFactoryImpl factory = new DataVectorFactoryImpl();
     private final DataVectorSortServiceImpl sortService = new DataVectorSortServiceImpl();
     private final IntegerDataVectorServiceImpl classicService = new IntegerDataVectorServiceImpl();
 
     @Test
     @DisplayName("sum should return correct sum of elements")
     void sumTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createWithData(1, 2, 3, 4, 5);
+        IntegerDataVector vector = factory.createWithData(1, 2, 3, 4, 5);
 
         int actual = classicService.sum(vector);
         int expected = 15;
@@ -27,7 +30,7 @@ public class DataVectorServiceTest {
     @Test
     @DisplayName("sum should return 0 for empty vector")
     void sumEmptyTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createBySize(0);
+        IntegerDataVector vector = factory.createBySize(0);
 
         int actual = classicService.sum(vector);
         int expected = 0;
@@ -38,7 +41,7 @@ public class DataVectorServiceTest {
     @Test
     @DisplayName("findMaxElement should return maximum element")
     void findMaxTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createWithData(3, 7, 2, 9, 1);
+        IntegerDataVector vector = factory.createWithData(3, 7, 2, 9, 1);
 
         int actual = classicService.findMaxElement(vector);
         int expected = 9;
@@ -49,7 +52,7 @@ public class DataVectorServiceTest {
     @Test
     @DisplayName("findMaxElement should throw exception for empty vector")
     void findMaxEmptyTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createBySize(0);
+        IntegerDataVector vector = factory.createBySize(0);
 
         assertThrows(IntegerDataVectorException.class,
                 () -> classicService.findMaxElement(vector),
@@ -59,7 +62,7 @@ public class DataVectorServiceTest {
     @Test
     @DisplayName("findMinElement should return minimum element")
     void findMinTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createWithData(3, 7, 2, 9, 1);
+        IntegerDataVector vector = factory.createWithData(3, 7, 2, 9, 1);
 
         int actual = classicService.findMinElement(vector);
         int expected = 1;
@@ -70,7 +73,7 @@ public class DataVectorServiceTest {
     @Test
     @DisplayName("findMinElement should throw exception for empty vector")
     void findMinEmptyTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createBySize(0);
+        IntegerDataVector vector = factory.createBySize(0);
 
         assertThrows(IntegerDataVectorException.class,
                 () -> classicService.findMinElement(vector),
@@ -80,7 +83,7 @@ public class DataVectorServiceTest {
     @Test
     @DisplayName("bubbleSort should return sorted vector")
     void bubbleSortTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createWithData(5, 2, 8, 1, 9);
+        IntegerDataVector vector = factory.createWithData(5, 2, 8, 1, 9);
 
         IntegerDataVector sorted = sortService.bubbleSort(vector);
 
@@ -93,7 +96,7 @@ public class DataVectorServiceTest {
     @Test
     @DisplayName("qSort should return sorted vector")
     void qSortTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createWithData(5, 2, 8, 1, 9);
+        IntegerDataVector vector = factory.createWithData(5, 2, 8, 1, 9);
 
         IntegerDataVector sorted = sortService.qSort(vector);
 
@@ -106,7 +109,7 @@ public class DataVectorServiceTest {
     @Test
     @DisplayName("bubbleSort should return empty vector for empty input")
     void bubbleSortEmptyTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createBySize(0);
+        IntegerDataVector vector = factory.createBySize(0);
 
         IntegerDataVector sorted = sortService.bubbleSort(vector);
 
@@ -116,7 +119,7 @@ public class DataVectorServiceTest {
     @Test
     @DisplayName("qSort should return empty vector for empty input")
     void qSortEmptyTest() throws IntegerDataVectorException {
-        IntegerDataVector vector = IntegerDataVector.createBySize(0);
+        IntegerDataVector vector = factory.createBySize(0);
 
         IntegerDataVector sorted = sortService.qSort(vector);
 
