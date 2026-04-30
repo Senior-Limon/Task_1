@@ -13,9 +13,6 @@ public class DataVectorSortServiceImpl implements IntegerDataVectorSortService {
     public IntegerDataVector qSort(IntegerDataVector vector) throws IntegerDataVectorException {
 
         Random rnd = new Random();
-        if (vector == null) {
-            throw new IntegerDataVectorException("Vector cannot be null");
-        }
 
         if (vector.getSize() == 0) {
             return IntegerDataVector.createBySize(0);
@@ -40,9 +37,6 @@ public class DataVectorSortServiceImpl implements IntegerDataVectorSortService {
 
     @Override
     public IntegerDataVector bubbleSort(IntegerDataVector vector) throws IntegerDataVectorException {
-        if (vector == null) {
-            throw new IntegerDataVectorException("Vector cannot be null");
-        }
 
         if (vector.getSize() == 0) {
             return IntegerDataVector.createBySize(0);
