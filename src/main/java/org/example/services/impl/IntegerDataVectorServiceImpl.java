@@ -12,7 +12,7 @@ public class IntegerDataVectorServiceImpl implements IntegerDataVectorService {
 
     @Override
     public int findMaxElement(IntegerDataVector vector) throws IntegerDataVectorException {
-        if (vector == null || vector.getSize() == 0) {
+        if (vector.getSize() == 0) {
             throw new IntegerDataVectorException("No max element in empty vector");
         }
         int max = vector.getElementByIndex(0);
@@ -25,7 +25,7 @@ public class IntegerDataVectorServiceImpl implements IntegerDataVectorService {
 
     @Override
     public int findMinElement(IntegerDataVector vector) throws IntegerDataVectorException {
-        if (vector == null || vector.getSize() == 0) {
+        if (vector.getSize() == 0) {
             throw new IntegerDataVectorException("No min element in empty vector");
         }
         int min = vector.getElementByIndex(0);
